@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML-Task-7</title>
+</head>
+
+<body>
+    
+
+    <center>
+        <form method="GET" action="" target="_self">
+            
+            <table cellspacing="10px"  align="center">
+                <tr>
+                    <td class="s_1"><label for="fullNameLabel" class="label_style">Full Name:</label></td>
+                    <td><input type="text" name="fullname" id="fullNameInput" class="input_style" /></td>
+                </tr>
+                <tr>
+                    <td class="s_1"><label for="usernameLabel" class="label_style">Userame:</label></td>
+                    <td><input type="text" name="username" id="usernameInput" class="input_style" /></td>
+                </tr>
+                <tr>
+                    <td class="s_1"><label for="passLabel" class="label_style">Password:</label></td>
+                    <td><input type="password" name="pass" id="passInput" class="input_style pass_style" /></td>
+                </tr>
+                <tr>
+                    <td class="s_1"><label for="repassLabel" class="label_style">Re Password:</label></td>
+                    <td><input type="password" name="pass" id="repassInput" class="input_style pass_style" /></td>
+                </tr>
+                <tr>
+                    <td class="s_1"><label for="ageLabel" class="label_style">Age:</label></td>
+                    <td><input type="number" name="age" id="ageInput" class="input_style" /></td>
+                </tr>
+                <tr>
+                    <td class="s_1"><label for="addLabel" class="label_style">Address:</label></td>
+                    <td><input type="text" name="address" id="addressInput" class="input_style" /></td>
+                </tr>
+                <tr>
+                    <td class="s_1"><label for="genderLabel" class="label_style">Gender:</label></td>
+                    <td>
+                        <select name="gender" id="dropInput">
+                            <option value="male" selected>Male</option>
+                            <option value="female">Female</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <input type="submit" name="save" value="SAVE" class="button_style" /></td>
+                </tr>
+            </table>
+            <br>
+        </form>
+    </center>
+</body>
+
+</html>
+
+<style>
+    .input_style {
+        height: 20px;
+    }
+
+    .s_1 {
+        width: 200px;
+    }
+
+    .pass_style{
+        width: 140px;
+    }
+
+    .button_style{
+        height: 25px;
+    }
+
+    select{
+        margin-top:2px;
+        height: 22px;
+    }
+
+
+</style>

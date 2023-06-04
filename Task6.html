@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML-Task-6</title>
+</head>
+
+<body>
+    
+
+        <form method="GET" action="" target="_self">
+        <h1 style="color:darkblue;">Registration form</h1>
+
+        <b><label for="firstNameLabel">First Name:</label></b>
+        <input type="text" name="firstname" id="firstNameInput" /><br><br>
+
+        <b><label for="lastNameLabel">Last Name:</label></b>
+        <input type="text" name="lastname" id="lastNameInput" /><br><br>
+
+        <b><label for="emailLabel">Email:</label></b>
+        <input type="text" name="email" id="emailInput" /><br><br>
+
+        <b><label for="genderLabel">Gender:</label></b>
+        <input type="radio" name="gender" id="male" value="male"><b><label for="maleLabel">Male</label></b>&nbsp;&nbsp;
+        <input type="radio" name="gender" id="female" value="female"><b><label
+                for="femaleLabel">Female</label></b><br><br>
+
+        <b><label for="ageLabel">Age:</label></b>
+        <input type="number" name="age" id="ageInput" /><br><br>
+
+        <b><label for="numLabel" class="label_style">Phone Number:</label></b>
+        <input type="number" name="num" id="numInput" /><br><br>
+
+        <b><label for="addLabel">Address:</label></b>
+        <textarea name="address" id="addressInput" rows="6" cols="50"></textarea><br><br>
+
+        <b><label for="stateLabel">State:</label></b>
+        <input type="text" name="state" id="stateInput" /><br><br>
+
+        <b><label for="countryLabel">Country:</label></b>
+        <select name="country" id="dropInput">
+            <option value="select" selected disabled>Choose your country</option>
+            <option value="india">India</option>
+            <option value="aus">Australia</option>
+            <option value="usa">USA</option>
+            <option value="egypt">Egypt</option>
+            <option value="argentina">Argentina</option>
+            <option value="brazil">Brazil</option>
+        </select><br><br><br>
+
+
+        <b><label for="languageLabel">Languages known:</label></b>
+        <input type="checkbox" id="english" name="english" value="english">
+        <b><label for="eng">English</label></b>&nbsp;&nbsp;
+        <input type="checkbox" id="kannada" name="kannada" value="kannada">
+        <b><label for="knd">Kannada</label></b>&nbsp;&nbsp;
+        <input type="checkbox" id="hindi" name="hindi" value="hindi">
+        <b><label for="hin">Hindi</label></b>&nbsp;&nbsp;
+        <input type="checkbox" id="telugu" name="telugu" value="telugu">
+        <b><label for="knd">Telegu</label></b><br><br>
+
+
+
+        <input type="checkbox" id="agree" name="agrrement" value="agreement"><label for="agr">Hereby I declare all the
+            given details are true.</label><br><br>
+
+
+        <input type="submit" name="register" value="REGISTER" id="form_button" />
+    </form>
+</body>
+
+</html>
+
+<style>
+    form{
+        padding-left: 300px;
+    }
+</style>
